@@ -7,6 +7,9 @@ body {
     background-color: #e16f12;
     color: #fff;
     padding: 10px;
+      height: 10%; 
+      display: flex;
+      align-items: center;
   }
   
   .navbar {
@@ -19,8 +22,14 @@ body {
     color: #fff;
     font-weight: bold;
     text-decoration: none;
+    width: auto; 
+    max-height: 40%;
+    margin: 0 10px; 
   }
-  
+  .logo img {
+    max-width: 20%; 
+    max-height: 20%; 
+  }
   .menu-icon {
     display: none;
     cursor: pointer;
