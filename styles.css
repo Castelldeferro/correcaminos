@@ -3,9 +3,9 @@ body {
     padding: 0;
     background-color: rgb(40, 40, 40);
   }
- 
+  
   header {
-    background-color: #e16f12;
+    background-color: #c36111;
     color: #fff;
     padding: 10px;
       height: 10%; 
@@ -66,6 +66,8 @@ body {
   
   section {
     padding: 100px;
+    text-decoration-color: #fff;
+    color: #fff;
   }
   
   h1 {
@@ -75,3 +77,4 @@ body {
   p {
     margin-top: 20px;
   } 
+ 
