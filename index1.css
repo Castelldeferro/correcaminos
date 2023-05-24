@@ -1,0 +1,194 @@
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  
+  .menu ul li {
+    margin-right: 20px;
+  }
+  
+  .menu ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu ul li a img {
+    width: 30px;
+    height: 30px;
+  }
+/* Estilos personalizados */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #4d4b4b;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+header {
+  background-color: #eb6410;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  height: 5%;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  text-decoration: overline;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+}
+
+section {
+  padding: 20px;
+  display: block;
+}
+
+#hover-title {
+  cursor: pointer;
+}
+
+.contact-section {
+  background-color: #eb6410;
+  flex-grow: 1;
+  position: relative;
+  margin-top: 100%;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 2;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-links {
+  flex: 1;
+}
+
+
+.contact-links ul {
+  list-style: none;
+}
+
+.navbar ul li a {
+    color: aliceblue;
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    bottom: -2px;
+    left: 0;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+    background-color: rgb(255, 240, 240);
+    text-decoration: none;
+  }
+
+  header {
+    transition: transform 0.3s;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9999;
+        transition: top 0.3s;
+  }
+  
+  .scroll-down {
+    transform: translateY(-100%);
+  }
+  
+
+  header {
+    height: 100px;
+    transition: height 0.3s;
+  }
+  section {
+    padding: 20px;
+    margin-top: 120px; 
+  }
+
+
+  header .logo img {
+    width: 130px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: auto; /* Para mantener la proporción de aspecto original */
+  }
+  
+  header .menu li a {
+    width: 100px; /* El 2/3 del tamaño del logo */
+    height: auto; /* Para mantener la proporción de aspecto original */
+  }
+  
+  /*aqui zona pruebas*/
+
+  .video-container {
+    margin: 20px;
+    margin-top: 180px;
+  }
+   .strava1 {
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+   }
+
+footer {
+  background-color: #000000;
+  padding: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  position: relative;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
